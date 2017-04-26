@@ -1,0 +1,14 @@
+{
+  "name": "moviebrowser",
+  "authors": [
+    "Dario <dario.calovic@skypro.ch>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-mobile": "^1.4.5"
+  }
+}
