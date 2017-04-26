@@ -1,0 +1,31 @@
+.ui-listview>.ui-li-has-thumb>.ui-btn, .ui-listview>.ui-li-static.ui-li-has-thumb {
+    padding-left: 4.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.floatImg {
+    float: right;
+    width: 35%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.search-result {
+    display: none;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bower_components/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../../assets/style/movies.css" />
+</head>
+<body>
+<div data-role="page">
+
+    <div data-role="header">
+        <a href="#" class="ui-btn ui-icon-back ui-btn-icon-left back">Back</a>
+        <h1>Search</h1>
+    </div>
+
+    <div data-role="content">
+        <input class="search-inp" type="text" placeholder="Find a movie.." />
+        <div class="search-result">
+            <img class="floatImg">
+            <h2 class="md-title"></h2>
+            <p class="md-info"></p>
+            <dl>
+                <dt>Director</dt>
+                <dd class="md-director"></dd>
+                <dt>Writer</dt>
+                <dd class="md-writer"></dd>
+                <dt>Actors</dt>
+                <dd class="md-actors"></dd>
+                <dt>Plot</dt>
+                <dd class="md-plot"></dd>
+            </dl>
+        </div>
+    </div><!-- /content -->
+
+    <div data-role="footer">
+        <h4>&copy; Copyright by Dario Calovic</h4>
+    </div>
+
+</div><!-- /page -->
+
+
+<!-- JS scripts -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../../bower_components/jquery-migrate/jquery-migrate.min.js"></script>
+<script src="../../bower_components/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"></script>
+<script src="../../assets/script/movies.js"></script>
+<!-- JS scripts -->
+
+</body>
+</html>
